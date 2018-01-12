@@ -1,6 +1,8 @@
 # RF-IR Bridge
 
-Suppose you have a set of [Etekcity](https://www.etekcity.com/) (or similar) remote-control outlets. You want to use some of the buttons on the remote to control devices that only respond to IR (TV/projector/etc) or WOL (computers). This project uses an Arduino Yun to listen for certain button presses on the etekcity remote, and send a power on/off command to the projector and computer.
+![remote control outlets](https://i.imgur.com/qabJeXFt.jpg)
+
+Suppose you have a set of Etekcity (or similar) remote-control outlets. You want to use some of the buttons on the remote to control devices that only respond to IR (TV/projector/etc) or WOL (computers). This project uses an Arduino Yun to listen for certain button presses on the etekcity remote, and send a power on/off command to the projector and computer.
 
 ### Dependencies
 
@@ -32,4 +34,4 @@ Note there is an unusual arrangement of loops and delays in the IR transmit code
 
 ### Alternatives
 
-Note that you could achieve the same functionality much more easily buy buying into an existing home automation platform (SmartThings/Wink/wtc) but what's the fun in that?
+Note that you could achieve the same functionality much more easily buy buying into an existing home automation platform (SmartThings/Wink/etc) but what's the fun in that?
